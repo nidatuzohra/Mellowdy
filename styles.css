@@ -29,3 +29,41 @@ body{
     margin-left: 30%;
     padding-bottom: 0.25em;
 }
+
+  /* Navbar Section */
+.navbar {
+    background: #ffffff;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 8%;
+    border-radius: 25px;
+  }
+
+  .navbar-container {
+    background: transparent;
+  }
+
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    background-color: transparent;
+  }
+  
+  .navbar-links {
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: #000000;
+    background-color: transparent;
+    font-size: 1.2em;
+  }
+  .navbar-item {
+    padding: 40px 20px; /* sus */
+    background-color: transparent;
+  }
+  
+  .navbar-links:hover {
+    color: #9CBBC9;
+  }
+  /*End Navbar Section*/
