@@ -89,6 +89,38 @@ body {
     color: #6D7D74;
 }
 
+.dashboard-card-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    color: #5C6A65;
+}
+
+.dashboard-card-innertitle {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    color: #5C6A65;
+}
+
+.routine-container{
+    background-color: #F1F6F8;
+    padding: 0.5em;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.routine-container .btn{
+    background-color: #9AC6A1;
+    border-color: #9AC6A1;
+}
+
+.routine-container .btn:focus{
+    background-color: #649c6e;
+}
+
 /* Navbar Section */
 .navbar {
     background: #ffffff;
@@ -128,6 +160,23 @@ body {
 }
 
 .navbar-links:hover {
+    color: #9CBBC9;
+}
+
+nav th {
+    text-align: center;
+    padding: 0 1.5em;
+}
+
+nav td {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.active-link {
     color: #9CBBC9;
 }
 
