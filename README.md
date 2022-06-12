@@ -6,10 +6,7 @@ Research has shown that listening to music can benefit people of all ages in dea
 
 ### How to run
 
-Clone the repo and enter the following command in VS Code terminal, 
-<p>
-  <code>npx serve</code>
-</p>
+Clone the repo and navigate to index.html, then start debugging (F5). 
 
 **Recommendation**: Launch Google Chrome devtools and "Inspect element". View the app in iPhone 6/7/8 or iPhone 6/7/8 Plus for best results!
 
