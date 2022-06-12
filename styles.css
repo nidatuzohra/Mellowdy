@@ -40,6 +40,10 @@ body {
     box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.05);
 }
 
+.card-body{
+    padding: 0.5em 1em !important;
+}
+
 #dashboard-username {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -134,6 +138,14 @@ input {
     margin-bottom: 2em;
 }
 
+input[type=range]::-webkit-slider-thumb{
+    background: #9AC6A1 !important;
+}
+
+input[type=range]{
+    background-color: #FCFDFD!important;
+    margin-bottom: 0;
+}
 
 /* Navbar Section */
 .navbar {

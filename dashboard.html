@@ -59,17 +59,34 @@
     <div class="card">
         <div class="card-body">
             <h5 class="dashboard-card-title">How are you doing?</h5>
-            <p class="dashboard-card-text">You've completed 0 out of 0 routines.</p>
+            <input type="range" class="form-range" min="0" max="100" value="3">
+            <p class="dashboard-card-text">You've completed <strong>0 out of 1</strong> routine.</p>
+            <hr>
+            <p class="dashboard-card-text" style="margin:0;">You've just acheived <strong>"The First Step"</strong>.</p>
         </div>
     </div>
     <div class="card">
         <div class="card-body">
             <h5 class="dashboard-card-subtitle">Upcoming Routines</h5>
             <div class="routine-container">
-                <p class="dashboard-card-innertitle">No routines yet!</p>
-                <p class="dashboard-card-text">It looks like you might be new! That's not a problem at all, Mellowdy
-                    can help you set up a new routine to get your day's going!</p>
-                <a class="btn btn-success" href="#">Start a New Routine</a>
+                <table style="padding-bottom: 0;">
+                    <thead>
+                        <tr>
+                            <th class="dashboard-card-subtitle" style="font-size: 125%;">Wake Up Call</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                           <td class="dashboard-card-subtitle" style="text-align: left;">June 12th, 2022</td> 
+                           <td class="dashboard-card-subtitle" style="text-align: right; padding-left: 120px;">Edit</td> 
+                        </tr>
+                        <tr>
+                            <td style="color: #6D7D74;">8:00am - 8:30am</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
             </div>
         </div>
     </div>
@@ -80,7 +97,7 @@
                 <thead>
                     <tr>
                         <th>
-                            <img src="icons/home.png" height="24">
+                            <img src="icons/home-active.png" height="24">
                         </th>
                         <th>
                             <img src="icons/clipboard.png" height="24">
