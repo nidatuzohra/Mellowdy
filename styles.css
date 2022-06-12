@@ -117,6 +117,7 @@ body {
     border-color: #9AC6A1;
     border-radius: 15px !important;
     min-width: 275px;
+    font-size: 120% !important;
 }
 
 .btn:focus {
