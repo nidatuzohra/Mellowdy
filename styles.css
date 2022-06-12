@@ -105,21 +105,34 @@ body {
     color: #5C6A65;
 }
 
-.routine-container{
+.routine-container {
     background-color: #F1F6F8;
     padding: 0.5em;
     border-radius: 12px;
     text-align: center;
 }
 
-.routine-container .btn{
+.btn {
     background-color: #9AC6A1;
     border-color: #9AC6A1;
+    border-radius: 15px !important;
+    min-width: 275px;
 }
 
-.routine-container .btn:focus{
+.btn:focus {
     background-color: #649c6e;
 }
+
+input {
+    background-color: #F1F6F8 !important;
+    font-size: 120% !important;
+    border: none;
+    border-radius: 25px !important;
+    resize: none;
+    outline: none;
+    margin-bottom: 2em;
+}
+
 
 /* Navbar Section */
 .navbar {
