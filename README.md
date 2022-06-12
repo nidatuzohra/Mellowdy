@@ -17,6 +17,7 @@ Research has shown that listening to music can benefit people of all ages in dea
 This prototype is built as a Progressive Web app, which will allow users on all types of devices to access it easily. It uses basic HTML combined with Bootstrap 5 for CSS. To support the PWA, a service worker is registered along with a manifest.json file. 
 
 *Lighthouse report on Google Chrome Devtools*
+<br>
 ![Lighthousereport](https://user-images.githubusercontent.com/65660274/173217090-6503144a-2d9c-4941-98b0-f6f72b8d9308.JPG) 
 
 *Prototype running locally*
