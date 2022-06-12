@@ -4,6 +4,23 @@ Research has shown that listening to music can benefit people of all ages in dea
 
 <img width="1920" alt="Cover" src="https://user-images.githubusercontent.com/65660274/173217156-313b98c9-98b4-4c17-9a8c-8a0a3f9edeef.png">
 
+### How to run
+
+Clone the repo and enter the following command in VS Code terminal, 
+<code>npx serve</code>
+
+Recommendation: Launch Google Chrome devtools and "Inspect element". View the app in iPhone 6/7/8 or iPhone 6/7/8 Plus for best results!
+
+![image](https://user-images.githubusercontent.com/65660274/173230945-cabafce0-2616-40b0-a602-88e0e1a5215f.png)
+
+### Proposed technical solution
+
+**Phase 1** - React PWA with SQL database + Music API like Deezer API to fetch music belonging to specific genre. Login info and customization selection will be saved of the end users. 
+
+**Phase 2** - Additional module for certified music therapist's to sign up and upload their work. NoSQL database will be implemented to save the audio details, like metadata and link to audio file. Audio file storage will be on the cloud. 
+
+**Phase 3** - NoSQL database will capture further details, such as most popular tracks, when the app is used the most and least, etc.  
+
 ### Mock ups
 
 ![image](https://user-images.githubusercontent.com/65660274/173217457-a24eb07e-75cc-463a-95bf-48ec33ab0787.png)
