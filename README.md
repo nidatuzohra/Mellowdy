@@ -1,4 +1,4 @@
-# Mellowdy - Music with Intention
+# Mellowdy - Music with Intention TH.0 HealthTech 2nd Place Winner
 
 Research has shown that listening to music can benefit people of all ages in dealing with mental health issues. Mellowdy aims to combine self care routine with therapeutic music to provide relief in a consistent and sustainable manner.  
 
